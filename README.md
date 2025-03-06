@@ -4,11 +4,7 @@ In this project we are literally going to build Linux from the ground up.
 ## Project Structure
 ```bash
 Linux-to-the-Extreme/
-│── arch/                     
-│   ├── x86_64/                # x86_64 Bootloader & Kernel
-│   │   ├── bootloader.asm  
-│   │   ├── kernel.c         
-│   │   ├── Makefile          
+│── arch/                              
 │   ├── arm64/                 # ARM64 Bootloader & Kernel
 │   │   ├── bootloader.S    
 │   │   ├── kernel.c        
